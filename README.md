@@ -30,7 +30,7 @@ Users should be able to:
 
 ![Img Mobile]()
 ### Links
-- Live Site URL: [recipe-page](https://manugolem.github.io/time-tracking-profile/)
+- Live Site URL: [time-tracking](https://manugolem.github.io/time-tracking-profile/)
 ## My process
 ### Built with
 - HTML5

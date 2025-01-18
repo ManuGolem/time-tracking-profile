@@ -54,13 +54,14 @@ footer {
 }
 .page {
 	display: flex;
-	margin: 8rem;
+	margin: 10rem;
 	gap: 2rem;
 }
 .horizontal {
-	display: flex;
+	display: grid;
 	gap: 2rem;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+	width: 100%;
 }
 .jeremy {
 	width: 4rem;
@@ -84,6 +85,7 @@ footer {
 }
 .info {
 	padding: 2rem;
+	width: 100%;
 }
 h2 {
 	color: white;
@@ -95,38 +97,101 @@ h2 {
     display: flex;
     border-radius: 1.2rem;
     align-items: end;
+	background-image: url(images/icon-work.svg);
+	padding-top:3rem;
+	background-repeat:no-repeat;
+	background-position-x: right +1rem;
+	background-position-y: -8px;
 }
 .play {
 	background-color: var(--play);
     display: flex;
     border-radius: 1.2rem;
     align-items: end;
+	background-image: url(images/icon-play.svg);
+	padding-top: 3rem;
+	background-repeat:no-repeat;
+	background-position-x: right +1rem;
+	background-position-y: -8px;
 }
 .study {
 	background-color: var(--study);
     display: flex;
     border-radius: 1.2rem;
     align-items: end;
+	background-image: url(images/icon-study.svg);
+	padding-top: 3rem;
+	background-repeat:no-repeat;
+	background-position-x: right +1rem;
+	background-position-y: -8px;
 }
 .exercise {
 	background-color: var(--exercise);
     display: flex;
     border-radius: 1.2rem;
     align-items: end;
+	background-image: url(images/icon-exercise.svg);
+	padding-top: 3rem;
+	background-repeat:no-repeat;
+	background-position-x: right +1rem;
 }
 .social {
 	background-color: var(--Social);
     display: flex;
     border-radius: 1.2rem;
     align-items: end;
+	background-image: url(images/icon-social.svg);
+	padding-top: 3rem;
+	background-repeat:no-repeat;
+	background-position-x: right +1rem;
+	background-position-y: -8px;
 }
 .self {
 	background-color: var(--self);
     display: flex;
     border-radius: 1.2rem;
     align-items: end;
+	background-image: url(images/icon-self-care.svg);
+	padding-top:3rem;
+	background-repeat:no-repeat;
+	background-position-x: right +1rem;
+	background-position-y: -8px;
 }
 .inline{
     display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
+.tres{
+	height: 100%;
+	width: 18px;
+}
+.tres:hover{
+	cursor: pointer;
+}
+.hora{
+	color:white;
+	font-weight: 300;
+	font-size: 50px;
+	padding-top:1rem;
+}
+.previous{
+	color:var(--Desaturated-blue);
+	font-weight: 500;
+	font-size: 14px;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.profile{
+	flex-grow: 1;
+}
+.selector:hover{
+	color:var(--Pale-Blue);
+	cursor: pointer;
+}
+.info:hover{
+	background-color:#34397b ;
+	cursor: pointer;
+}
