@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap");
+:root {
+	--Blue: hsl(246, 80%, 60%);
+
+	--work: hsl(15, 100%, 70%);
+
+	--play: hsl(195, 74%, 62%);
+
+	--study: hsl(348, 100%, 68%);
+
+	--exercise: hsl(145, 58%, 55%);
+
+	--Social: hsl(264, 64%, 52%);
+
+	--self: hsl(43, 84%, 65%);
+	--Very-dark-blue: hsl(226, 43%, 10%);
+	--Dark-blue: hsl(235, 46%, 20%);
+	--Desaturated-blue: hsl(235, 45%, 61%);
+	--Pale-Blue: hsl(236, 100%, 87%);
+}
+* {
+	font-family: "Rubik", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+}
+p {
+	color: var(--Pale-Blue);
+	font-weight: 500;
+	font-size: 14px;
+}
+body {
+	background-color: var(--Very-dark-blue);
+}
+footer {
+	text-align: center;
+}
+.container,
+.info {
+	background-color: var(--Dark-blue);
+	border-radius: 1rem;
+}
+.profile {
+	background-color: var(--Blue);
+	border-radius: 1rem;
+	padding-inline: 2rem;
+}
+.name {
+	font-weight: 300;
+	font-size: 36px;
+	padding-bottom: 4rem;
+	color: white;
+}
+.page {
+	display: flex;
+	margin: 8rem;
+	gap: 2rem;
+}
+.horizontal {
+	display: flex;
+	gap: 2rem;
+    flex-wrap: wrap;
+}
+.jeremy {
+	width: 4rem;
+	border: 3px solid white;
+	border-radius: 50%;
+	margin-block: 2rem;
+}
+.container-selector {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.selector {
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--Desaturated-blue);
+}
+.selected {
+	color: var(--Pale-Blue);
+}
+.info {
+	padding: 2rem;
+}
+h2 {
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+}
+.work {
+	background-color: var(--work);
+    display: flex;
+    border-radius: 1.2rem;
+    align-items: end;
+}
+.play {
+	background-color: var(--play);
+    display: flex;
+    border-radius: 1.2rem;
+    align-items: end;
+}
+.study {
+	background-color: var(--study);
+    display: flex;
+    border-radius: 1.2rem;
+    align-items: end;
+}
+.exercise {
+	background-color: var(--exercise);
+    display: flex;
+    border-radius: 1.2rem;
+    align-items: end;
+}
+.social {
+	background-color: var(--Social);
+    display: flex;
+    border-radius: 1.2rem;
+    align-items: end;
+}
+.self {
+	background-color: var(--self);
+    display: flex;
+    border-radius: 1.2rem;
+    align-items: end;
+}
+.inline{
+    display: flex;
+}
+
