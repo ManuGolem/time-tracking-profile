@@ -56,7 +56,6 @@ function cambiarDatos(id) {
 		study.childNodes[1].childNodes[5].textContent = "Last Week - 1hrs";
 		exercise.childNodes[1].childNodes[3].textContent = "1hrs";
 		exercise.childNodes[1].childNodes[5].textContent = "Last Week - 1hrs";
-
 		social.childNodes[1].childNodes[3].textContent = "1hrs";
 		social.childNodes[1].childNodes[5].textContent = "Last Week - 3hrs";
 		self.childNodes[1].childNodes[3].textContent = "0hrs";
