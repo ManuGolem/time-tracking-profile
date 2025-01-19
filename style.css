@@ -191,7 +191,7 @@ h2 {
 	color:var(--Pale-Blue);
 	cursor: pointer;
 }
-.info:hover{
+.info-hover{
 	background-color:#34397b ;
 	cursor: pointer;
 }
