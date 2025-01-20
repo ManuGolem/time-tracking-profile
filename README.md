@@ -24,11 +24,11 @@ Users should be able to:
 
 - Desktop :
 
-![Img desktop]()
+![Img desktop](images/desktop-preview.png)
 
 - Mobile:
 
-![Img Mobile]()
+![Img Mobile](images/mobile-preview.png)
 ### Links
 - Live Site URL: [time-tracking](https://manugolem.github.io/time-tracking-profile/)
 ## My process
@@ -37,6 +37,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JS vanilla
 ## Author
 - Website - [Manuel Carreras](https://manuelcarreras.netlify.app/)
 - Frontend Mentor - [@ManuGolem](https://www.frontendmentor.io/profile/ManuGolem)

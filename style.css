@@ -195,3 +195,54 @@ h2 {
 	background-color:#34397b ;
 	cursor: pointer;
 }
+@media (max-width:1000px){
+	.page{
+		flex-direction: column;
+		margin:2rem;
+	}
+	.horizontal{
+		grid-template-columns: 1fr;
+	}
+	.container-selector{
+		flex-direction: row;
+		justify-content: space-between;
+		padding-block: 1rem;
+	}
+	.profile{
+		display: flex;
+		align-items: center;
+	}
+	.header-title{
+		padding:1rem;
+		padding-right: 0;
+	}
+	p{
+		font-size: 12px;
+	}
+	.name{
+		padding:0;
+		padding-top:3px;
+		font-size: 20px;
+	}
+	.jeremy{
+		margin-block: 1rem;
+		width: 3rem;
+	}
+	.info-h{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.hora{
+		font-size: 24px;
+		padding:0;
+		margin:0;
+	}
+	.previous{
+		font-size: 12px;
+	}
+	h2{
+		font-size:14px;
+	}
+
+}
