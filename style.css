@@ -99,7 +99,7 @@ h2 {
 	padding-top:3rem;
 	background-repeat:no-repeat;
 	background-position-y: -8px;
-	background-position-x: right +1rem;
+	background-position-x: calc(100% - 1rem);
 }
 .work {
 	background-color: var(--work);
