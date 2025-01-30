@@ -214,3 +214,18 @@ h2 {
 	}
 
 }
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color:white;
+	a {
+		text-decoration: none;
+		&:any-link {
+			color: #09f;
+			text-decoration: none;
+		}
+	}
+}
